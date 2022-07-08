@@ -1,1 +1,4 @@
 # 
+# Nastavljam u masteru nakon sto sam sav svoj danasnji rad komitao u granu. Nastavak hitnog popravka kritikal-buga! Aut pise svoj scenario a ja opisujem i dosta mi je to kao paralela. Ok, primjetili smo da smo da smo pisali direktno u master sto nesmijemo i nije pametno. Sad cemo sve promjene baciti u novu granu "FeaturFix/DugaGrana" sa komandom
+#? git checkout -b FeaturFix/DugaGrana
+# odmah sam se i nasao u toj grani i nastavljam pisati u njoj. Dakle, sve do sada sto sam napravio nalazi mi se u granama. Master od jucer nema nikakvih promjena! Mnogo fajlova i teksta! Hm hm! Komitam ovaj dio rada u drugoj grani
