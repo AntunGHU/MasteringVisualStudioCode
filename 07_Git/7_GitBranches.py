@@ -7,3 +7,6 @@
 # kod njega se tekstom pojavljuje obavjest o novoj grani a kod mena samo "Already up to date." Kod njega se nakon klika na master sad nudi nova grana a kod mene ne!?!? Ipak nakon 3 il 4. pokusaja i sync-a pojavilo se!!! Prelazim na novu granu i pisem # Added new usless granu! u poseban red. Pri pokusaju prelaska na novu granu kuzim da je mozda bila tu cijelo vrijeme ali ja nisam sve do sad scrolao i skuzio da ima jos u padajucem izborniku!
 #! ADDED NEW USLESS GRANU i vratio se u master
 # vratio sam se u master i s iznenadjenjem otkrio da crvena Linija koji sam dodao u /feature... granu postoji i u masteru!?!?
+# medjutim, jos jedno iznenadjenje, nakon komita u grani i prebacivanja nazad na mastera nisam nasoa skoro nista sto sam pisao nakon kreiranja grane na GH!? Zato moram nastaviti pisati u grani (da ne izgubim napisano) s namjerom da kad zavrsim objedinim grane i opet sve imam samo u masteru
+
+# nova Ath ideja: sef rekao da imamo kritikal bug i hitno popravak. nismo bili pazljivi i popravak nastavljamo na masteru. Ovdje tekst u grani zavrsavam i komitam kako bih imao clean state.
