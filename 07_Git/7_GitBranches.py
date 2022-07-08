@@ -10,3 +10,7 @@
 # medjutim, jos jedno iznenadjenje, nakon komita u grani i prebacivanja nazad na mastera nisam nasoa skoro nista sto sam pisao nakon kreiranja grane na GH!? Zato moram nastaviti pisati u grani (da ne izgubim napisano) s namjerom da kad zavrsim objedinim grane i opet sve imam samo u masteru
 
 # nova Ath ideja: sef rekao da imamo kritikal bug i hitno popravak. nismo bili pazljivi i popravak nastavljamo na masteru. Ovdje tekst u grani zavrsavam i komitam kako bih imao clean state.
+# 
+# Nastavljam u masteru nakon sto sam sav svoj danasnji rad komitao u granu. Nastavak hitnog popravka kritikal-buga! Aut pise svoj scenario a ja opisujem i dosta mi je to kao paralela. Ok, primjetili smo da smo da smo pisali direktno u master sto nesmijemo i nije pametno. Sad cemo sve promjene baciti u novu granu "FeaturFix/DugaGrana" sa komandom
+#? git checkout -b FeaturFix/DugaGrana
+# odmah sam se i nasao u toj grani i nastavljam pisati u njoj. Dakle, sve do sada sto sam napravio nalazi mi se u granama. Master od jucer nema nikakvih promjena! Mnogo fajlova i teksta! Hm hm! Komitam ovaj dio rada u drugoj grani. Pojavljuje mi se plavi "PublishBranch" kojeg moram zapisati i napraviti drugi kommit druge grane kako bih imao sve cisto prije daljnjeg. Klikam na Publis isto radi i  Ath. Na kraju pokazuje da su publish-anjem obe grane u GH i da kad budemo htjeli sve u masterati pojavit ce se konflikt koje cemo rjesavati u sljedecoj lekciji. Evo konacno ja sada zavrsavam sa 2. granom i kliknut cu publish nakon sto prvo komitam 2put 2granu!!!
