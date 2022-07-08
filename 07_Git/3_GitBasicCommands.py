@@ -1,4 +1,5 @@
 # 4'03
+
 #? mkdir gitvjezba
 #? cd gitvjezba
 #? git status   # fatal: not a git repository (or any of the parent directories): .git
