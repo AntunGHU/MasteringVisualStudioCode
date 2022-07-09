@@ -5,25 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Django",
+            "name": "Python: Antun",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/manage.py",
-            "args": [
-                "runserver"
-            ],
-            "django": true,
-            "justMyCode": true
-        },
-        {
-            "name": "Python: FastAPI",
-            "type": "python",
-            "request": "launch",
-            "module": "uvicorn",
-            "args": [
-                "main:app"
-            ],
-            "jinja": true,
+            "program": "${file}",
+            "console": "integratedTerminal",
             "justMyCode": true
         }
     ]

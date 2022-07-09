@@ -6,6 +6,8 @@
 # Ispod pise a i on kaze da ako nemamo nikakvu debug-configuraciju klikamo na "create launch.json file", klika i bira environment izmedju ponudjenih opcija (chrome, edge, nodejs, more..). Bira NodeJs for demo i otvara se "launch.json"
 # imamo "configurations"-array u koju cemo staviti nasu debug configuraciju. Vec u array-u: "type":"node", "request":"launch"(ili "atach"), "name":"Launch Program"(on ga mjenja u "JS Debug" i to se ocitava pokraj trokuta Debug-starta), "skipFiles":["<node_internals>/**"], "program":"${workspaceFolder}/index.js" (najvazniji dio objasnjenja. on tu iz Launcher.js-a kopira relativ path i mece ga na mjesto index.js-a tako da on sad izgleda: "program":"${workspaceFolder}/dist/src/Launcher.js" )
 
+# print("AntunovPokusajDebuga") # linija koda koju sam iskoristio za provjeru razumjevanja kreiranja debug-konfig-fajla "".vscode/launch,json". Sve sam potvrdio, otvoreni fajl se debugira, break point se aktivira, ime debug konfiguracije itd itd.
+
 # nakon izrade launch.json fajla idemo u debugView i klikamo green trokut uz debugrunner i debug pocinje! (status traka postaje narancasta!)
 # prebacujemo se na "debug console" tab terminala i vidimo poruke poput: "started app", "server started", a u glavnom djelu se vrti fajl Launcher.js (onaj kojeg smo stavili u komandu) U tjeku toga postavljamo break pointe, on bira drugi fajl "Server.js" i stavlja BreakPoint nasumce u L55. Sad ide u browser i pravi reguest u url baru sto reruna citav projekt pa time i Server.js sto dovodi do hit-a u breakpoint!!!
 # Program se zaustavlja i mozemo hooverati iznad koda i dobiti vise informacija o njemu. DebugView kaze da imamo activ-ssesion.
