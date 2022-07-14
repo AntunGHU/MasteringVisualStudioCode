@@ -1,6 +1,6 @@
 # 4'41
 
-# Ath je u term-djelu gitovanja dosao do dva fatal outputa kad je pokusao git status i git push. Takodjer je imao niz drugih k-di i radnji. sad sve to pokusavamo kroz VSC. 
+# Ath je u term-djelu gitovanja dosao do dva fatal outputa kad je pokusao git status i git push. Takodjer je imao niz drugih k-di i radnji. Sad sve to pokusavamo kroz VSC. 
 
 # On ide u proizvoljnu  mapu bez gita a ja idem u Mosha sa drugim prozorom vsc
 # Prije iniciranja gita postavljamo term na output i gitview sto nam pokazuje da je git samim klikom na git na acitity baru isao provjeriti stanje mape-projecta po pitanju pracenja koda. Niz je izlaza koje je napravio:

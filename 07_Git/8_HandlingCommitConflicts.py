@@ -2,9 +2,9 @@
 
 # Ovu lekciju pocinjem u master branchu koji prema radu gita logicno nema nista sto sam danas radio, sve se nalazi u granama. Nadam se da cemo uspjeti sve to zamesateljstvo srediti i u konacnici imati gdje treba tj u masteru.
 
-# Ath lekciju pocinje u GH i ukazivanjem na zute novoformirane grane sa buttonom "Compare and PullRequest". Klikamo na Fix-granu sto formira "PullRequest" gdje klikamo na "Create Pull Request". I kod njeg i kod mene se pojavljuje izvjesce da druga grana nema konflikata sa masterom (logicno jer smo master uredno napustili i nastavili u 2.grani). Malo me brine kako ce se to odraziti na sadasnje promjene mastera koje ovaj pull reguest nevidi ali idem dalje... Pull request se vjerovatno odnosi na master i branch na GH, a naknadne ove moje promjene ce se pojaviti kao 1 za gore a promjene mastera na GH bit ce 1 za dole!
-# Klikamo na GH na "merge pull request" i "confirm"-amo. Dolazi do pojave poruke o uspjesnom merganju "Pull request successfully merged and closed" i ponude da obrisemo granu. Ath ne brise ali ja cu kasnije
-# sad idemo ponovo na nas repo (u GH) gdje vidimo da jos uvijek imamo zutim prvu branchu. On klika ponovo na Compare and request al ja necu prije nego sve opisem jer se bojim da ove moje tekuce promjene previse ne iskopliciraju sve. 
+# Ath lekciju pocinje u GH i ukazivanjem na zute novoformirane grane sa buttonom "Compare and PullRequest". Klikamo na Fix-granu sto formira "PullRequest" gdje klikamo na "Create Pull Request". I kod njeg i kod mene se pojavljuje izvjesce da druga grana nema konflikata sa masterom (logicno jer smo master uredno napustili i nastavili u 2.grani). Pull request se  odnosi na master i branch na GH, a naknadne ove moje promjene ce se pojaviti kao 1 za gore a promjene mastera na GH bit ce 1 za dole!
+# Klikamo na GH na "merge pull request" i "confirm"-amo. Dolazi do pojave poruke o uspjesnom merganju "Pull request successfully merged and closed" i ponude da obrisemo granu.
+# sad idemo ponovo na nas repo (u GH) gdje vidimo da jos uvijek imamo zutim prvu branchu. On klika ponovo na Compare and request. 
 # Njegov klik dovodi do pojave poruke o konfliktu i da se ne moze automatski mergati jer ima koflikte koji se trebaju resolvati. To resolvanje mozemo raditi i na GH ali Ath bira to pokazati na lokalnom nivou. Mjenja brench na feature branch, sto zanci da i ja trebam preci tamo. Ok, preci cu i nastaviti pisati u ovaj fajl unutar feature-grane. Sad zavrsavam, komitam i sinkroniziram mastere, pa cu onda kliknuti na PullRequest i prijeci na feature lokal granu.
 
 # Kao sto sam i obecao, nastavljam rad u ovom fajlu ali u feature grani koja ima konflikt u gh. Zaista se i kod mene sve pojavilo kao i u ath.
@@ -14,7 +14,7 @@
 # da je doslo do promjena na GH-masteru i da se one prvo usklade. To sam ja odradio sa sincom koji je imao 3dole i 1 gor. Ocekujem da se nakon odrade ove k-de takodjer git prebaci ponovo na master te pojavi ista poruka kao i u Ath tj da je master up to date sa GH-musterom. Kad sam to probao git tj bash su to abortali s upozorenjem da bih tako ostao bez ovih promjena tj ovog teksta. Vidi: 
 #? error: Your local changes to the following files would be overwritten by checkout:
         #? 07_Git/8_HandlingCommitConflicts.py
-#? Please commit your changes or stash them before you switch branches.
+#? Please commit your changes or stash (sakriti) them before you switch branches.
 #? Aborting
 # idem komitati ove pisanije pa ponoviti k-du
 
