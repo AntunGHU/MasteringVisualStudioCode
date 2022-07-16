@@ -12,12 +12,11 @@
 # Ath prvo obavjestava vsc i local git sa k-dom
 #? git checkout master
 # da je doslo do promjena na GH-masteru i da se one prvo usklade. To sam ja odradio sa sincom koji je imao 3dole i 1 gor. Ocekujem da se nakon odrade ove k-de takodjer git prebaci ponovo na master te pojavi ista poruka kao i u Ath tj da je master up to date sa GH-musterom. Kad sam to probao git tj bash su to abortali s upozorenjem da bih tako ostao bez ovih promjena tj ovog teksta. Vidi: 
-#? error: Your local changes to the following files would be overwritten by checkout:
-        #? 07_Git/8_HandlingCommitConflicts.py
-#? Please commit your changes or stash (sakriti) them before you switch branches.
-#? Aborting
+#* error: Your local changes to the following files would be overwritten by checkout:
+      #* 07_Git/8_HandlingCommitConflicts.py
+#* Please commit your changes or stash (sakriti) them before you switch branches.
+#* Aborting
 # idem komitati ove pisanije pa ponoviti k-du
-
 # ostavljam malo prostora za ubacivanje teksta iz prve grane i nastavljam sa opisom
 # Zaista sam dobio poruku istu kao i Ath. Vidi
 #? Switched to branch 'master'
@@ -33,7 +32,8 @@
 #? Your branch is up to date with 'origin/feature/neka_osobina'.
 # Sad idemo mergati master u "feature.." dok se nalazimo u toj "feature..." grani komandom:
 #? git merge master
-# Izmedju ostalih na kraju poruka:#?"Automatic merge failed; fix conflicts and then commit results" 
+# Izmedju ostalih na kraju poruka:
+#?"Automatic merge failed; fix conflicts and then commit results" 
 # Taj se konflict pojavljuje na nasem "source_control_view" kao izdvojeni fajlovi u view-dijelu i sa detaljima u glavnom (HEADCurrent Change, masterIncoming change) i menijem iznad sa:#todo "AcceptCurrent", "AcceptIncoming", "Accept both", "CompareChanges"
 # Ath i ja prihvacamo both changes nakon cega ih u View-djelu Stage-amo (i tako sa svakim fajlom u konfliktu pojedinacno) #*a potom i komitamo (uz komit poruku!
 # Ako sada idemo u GH vidimo da se pojavila poruka da je Automtski merge moguc, da se u dijalogu o merganju takodjer pojavio Commit mesage napravljen tjekom merganja i da mozemo kliknuti na Marge button. To i cinimo i time smo ucunili da je master na gh sada sa svim i nekonfliktnim promjenama!!!

@@ -10,6 +10,6 @@
 # TimelineView: radi samo s git-om, pokazuje kad se sto editalo, razne commit-e
 
 # SearchIcon-a kao sljedeca na ActivityBar-u: daje dva reda: search i replace
-#! reference search - posebno pri debuganju vazno , dk i findAllReferences sto otvara referncesView (icona 2 lista na acivity baru)a s tim vezana je i CallHierachy
+#! reference search - posebno pri debuganju vazno , dk i findAllReferences sto otvara referncesView (icona 2 lista na acivity baru)a s tim vezana je i CallHierarchy
 
 # multicursor: Alt+Klik misem, cd

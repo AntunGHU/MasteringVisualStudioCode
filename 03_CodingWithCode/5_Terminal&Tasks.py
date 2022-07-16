@@ -1,6 +1,6 @@
 # 5'48
 
-# otvaranje sa drag bottom line
+# otvaranje sa drag bottom line ili "c+`"
 # shell -bash starts in the working folder
 # mozemo runati vise terminala istovremeno, mogu se i oni splitati
 
