@@ -1,6 +1,6 @@
 # 6'51
 
-#! Kratica: "c," , 
+#! Kratica: "c,"
 # daje User i Workspace kartice. User za sve projekte, Workspace za specificni Worspace!
 # Povecavanje, smanjivanje - zoom+-: "c+", "c-"
 # Obicno sucelje i JSON-config

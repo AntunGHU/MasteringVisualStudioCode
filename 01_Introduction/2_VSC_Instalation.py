@@ -1,8 +1,10 @@
 # 2'19
 
-# Win: Dld,Instal,SveCheckirati
-# Lin sa com:
+# Win:
+# Dld,Instal,SveCheckirati
 
-#? sudo snap install code --classic
+# Lin sa com:
+# ? sudo snap install code --classic
+
 # pokretanje
-#? code
+# ? code
