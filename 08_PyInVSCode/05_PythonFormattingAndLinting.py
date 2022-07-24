@@ -6,7 +6,7 @@
 #? sudo apt install python3-pip
 # ponovo provocira sa "format Document" instal autopep8 i "yes"
 # pokazuje kao se ljepo poravi los spacing ali jos mu fali lintanje koje on instalira s k-dom (zaobilazi skocnu ponudu kao Mosh)
-#? sudo pip install palint
+#? sudo pip install pylint
 # pokazuje kao sad ako save bez formating linter podvlaci greske (orange). Dalje kreira u root-u projecta fajl ".pylintrc" i unjeg upisuje: odjeljak [MESSAGS CONTROL] i unos "disable=all" i "enable=Errors"
 # ako iz nekog razloga pylint ne radi mozemo u termu provjeriti sa 
 #? which pylint
