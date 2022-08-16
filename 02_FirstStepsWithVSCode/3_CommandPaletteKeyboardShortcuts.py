@@ -1,6 +1,6 @@
 # 2'58
 
-# Kombinacija Ctrl-c, Shift-s, P "csp"
+# Kombinacija: "csp" -  Ctrl-c, Shift-s, P
 # daje pristup svemu zamislivom u vsc
 
 # ck-cs - pristup listi keyboard shotcutsa
