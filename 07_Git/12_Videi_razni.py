@@ -50,3 +50,26 @@
 # ? git stash pop(0)
 # cime ce stash-verzija 0 biti cut-ana sa stash liste. Ako listu zelimo skroz izbrisati
 # ? git stash clear
+
+
+# * RAZLIKA PULL FETCH
+
+# https://www.youtube.com/watch?v=QRydepk8TB0  je video
+# https://www.youtube.com/watch?v=raQ9vFV6uvY  je video
+# https://www.youtube.com/watch?v=EnCe89ioCZQ
+# https://stackoverflow.com/questions/22946275/whats-the-point-of-git-fetch je clanak
+
+# What's the point of git fetch?
+
+# I don't understand the advantage. I've seen it argued in places such as this article that fetching instead of pulling gives you the opportunity to inspect the changes before you merge them into your local branch.
+# But, in that article for instance, the author uses git diff master origin/master to inspect the changes made in the newly fetched branch by comparing it to his local master.
+# This is where I get confused....that command would work anyway, regardless of whether you had fetched first. Either way it's comparing local master to remote master. You don't need to fetch to compare your local branch to the remote branch.
+# What am I missing?
+
+# You're missing that git fetch is used to update your local copy of the remote branch.
+# So the command you mentioned would do a diff between the local branch master and the local copy of origin/master, not the actual state of the master branch on origin. fetch will connect to the remote server and download all the changes of the remote(changes in branches, tags, ...).
+# As always, the git manual on Branching and Remote Branches explains it well. adresa: #? https://git-scm.com/book/en/v2
+
+# Whoa. Did not know that. For real? Without fetching there's no way to diff against the remote branch? You have to have a "local version" of the remote branch?
+# Because git is a distributed CVS, your local git repository will have it's local branches (master by default). But if you work with one or more remote servers, git will make a local copy of the state of these servers. They may have some of your local branches or different ones. I don't know of any way to make a diff against a remote repo directly... (at least not in git itself).
+# In order to diff against a remote repo, you have to download the state of that repo. Network operations can be slow. Very slow In order to not incur the penalty of a network operation every time you run a diff, git only does the download when explicitly requested. That's what git fetch does.
